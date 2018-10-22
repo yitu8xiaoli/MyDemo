@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  ProjectFramework
+//
+//  Created by 李帅 on 2018/8/9.
+//  Copyright © 2018年 李帅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// color
+#define kMainbackColor [UIColor colorWithRed:6/255.0 green:19/255.0 blue:51/255.0 alpha:0.24] // 背景色
+#define kCellbackColor [UIColor colorWithRed:6/255.0 green:19/255.0 blue:51/255.0 alpha:0.48] // cell背景色
+#define kWordLightColor [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.87] // 明亮字体
+#define kWordGrayColor [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.56] // 稍微暗色字体
+#define kWordDrakColor [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.35] // 暗色字体
+
+
+#define iOSVersion [UIDevice currentDevice].systemVersion
+
+
+#define kViewBackgroundColor [UIColor colorWithRed:0.94 green:0.94 blue:0.96 alpha:1.00] // 视图控制器背景灰
+#define kNaviBottomLineColor [UIColor colorWithRed:0.80 green:0.80 blue:0.82 alpha:1.00] // 导航栏下面的那条黑线颜色
+#define kSaperatorLineColor [UIColor colorWithRed:0.80 green:0.80 blue:0.82 alpha:1.00] // 分割线
+#define kBlackColor [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1] // 字体统一颜色黑
+#define kGrayColor [UIColor colorWithRed:153.0/255 green:153.0/255 blue:153.0/255 alpha:1] // 字体统一颜色灰
+#define kOrangeColor [UIColor colorWithRed:255/255.0 green:96/255.0 blue:0/255.0 alpha:1] // 价钱橘黄色
+#define RGB(R, G, B, A)\
+[UIColor colorWithRed:(R) / 255.0 green:(G) / 255.0 blue:(B) / 255.0 alpha:A]
+#define kScreenW [[UIScreen mainScreen] bounds].size.width
+#define kScreenH [[UIScreen mainScreen] bounds].size.height
+
+#import <AVOSCloud/AVOSCloud.h>
+#import "UIView+Common.h"//相关引用
+#import "UIViewController+LSExtension.h"
+#import "LSUIFactory.h"
+#import "MJRefresh/MJRefresh.h"
+
+
+
+#endif /* PrefixHeader_pch */
